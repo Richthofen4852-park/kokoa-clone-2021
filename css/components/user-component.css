@@ -24,6 +24,17 @@
   margin-top: 7px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.user-component__subtitle span {
+  color: red;
+  position: absolute;
+  border: 2px solid red;
+  border-radius: 100%;
+  padding: 1px 7px;
+  right: -30px;
+  bottom: -4px;
 }
 
 .user-component__avatar--xl {
